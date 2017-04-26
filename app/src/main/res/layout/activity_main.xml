@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/linear_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局管理" />
+
+
+    <Button
+        android:id="@+id/grid_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="宫格布局管理" />
+
+    <Button
+        android:id="@+id/staggered_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="流式宫格布局管理" />
+
+    <Button
+        android:id="@+id/multi_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="混合布局管理" />
+</LinearLayout>
